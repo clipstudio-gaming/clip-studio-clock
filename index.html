@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clip Studio Clock</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1b1b1f; --muted: #5b5b66; --accent: #d7191f; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111114; --fg: #ececf1; --muted: #a0a0ab; --accent: #ff4d55; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Clip Studio Clock</h1>
+  <p class="sub">A desk display for the Clip Studio Gaming YouTube channel.</p>
+
+  <h2>What it does</h2>
+  <p>Clip Studio Clock is a small private program that runs on the channel owner's own computer.
+  Every 10 minutes it reads the channel's statistics from YouTube and shows them on a pixel clock
+  on the owner's desk:</p>
+  <ul>
+    <li>views gained today and total views, and</li>
+    <li>the share of recent views that come from the United States and Canada.</li>
+  </ul>
+
+  <h2>What it accesses</h2>
+  <p>With the channel owner's permission, it uses two read-only Google permissions: viewing the
+  owner's YouTube account (for view counts) and viewing YouTube Analytics reports (for views by
+  country). It cannot upload, edit, delete or post anything, and it is not offered to anyone else.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <footer>Contact: <a href="mailto:clipstudio.creates@gmail.com">clipstudio.creates@gmail.com</a></footer>
+</main>
+</body>
+</html>
